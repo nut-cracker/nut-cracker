@@ -1,0 +1,487 @@
+
+html, body, 
+.container,
+.cbp-fbscroller,
+.cbp-fbscroller section { 
+	height: 100%;
+}
+
+
+.cbp-fbscroller > nav {
+	position: fixed;
+	z-index: 9999;
+	right: 50px;
+	top: 50%;
+	width: 14px;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.cbp-fbscroller > nav a {
+	display: block;
+	position: relative;
+	z-index: 9999;
+	color: transparent;
+	width: 14px;
+	height: 14px;
+	outline: none;
+	margin: 18px 0;
+	border-radius: 50%;
+	border: 1px solid rgba(255,255,255,0.6);
+	transition:0.2s all linear;
+}
+
+.no-touch .cbp-fbscroller > nav a:hover {
+	background: rgba(255,255,255,0.6);
+	transition:0.2s all linear;
+}
+
+.cbp-fbscroller > nav a.cbp-fbcurrent {
+	background: #fff;
+}
+
+.cbp-fbscroller section {
+	position: relative;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.no-touch .cbp-fbscroller section {
+	background-attachment: fixed;
+}
+
+#section1 {
+	background:	#011a27;
+}
+
+#students {
+	background: url(../images/student.png) #1995ad;
+	background-size: 70%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: static;
+	transition: 1s ease-in-out;
+
+}
+
+#students h2 {
+	color: #e82737;
+}
+
+#students hr {
+	color: #e82737;
+	background: #e82737;
+}
+
+
+#students .info2 {
+
+	background: rgba(24, 33, 38, 0.9);
+
+}
+
+#about {
+	background: url(../images/work.png) #eb8e44;
+	background-size: 70%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: static;
+	transition: 1s ease-in-out;
+
+}
+
+#about h2 {
+	color: #ff6102;
+}
+
+#about hr {
+	color: #ff6102;
+	background: #ff6102;
+}
+
+
+#about .info {
+
+	background: rgba(30, 0, 0, 0.8);
+
+}
+
+#alumni {
+	background: #011a27;
+	background-size: 70%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: static;
+	transition: 1s ease-in-out;
+
+}
+
+
+
+
+.hover {
+	background: #000;
+	background-position: 35% 50%!important;
+	transition: 0.2s ease-in-out;
+
+}
+
+#alumni .info {
+	background: rgba(198, 198, 198, 0.9);
+
+}
+
+#internships {
+	background: url(../images/work.png) 	#f8dc24;
+	background-size: 70%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: static;
+	transition: 1s ease-in-out;
+
+}
+
+
+
+#internships .info {
+	background: rgba(183, 182, 184, 0.9);
+
+}
+
+
+#works {
+	background: url(../images/work.png) #cdcdc0;
+		background-size: 70%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: static;
+	transition: 1s ease-in-out;
+}
+
+#works .info2 {
+	background: rgba(248, 220, 36, 0.8);
+
+}
+
+#works h2 {
+	color: #d5e7f3;
+}
+
+#works hr {
+	color: #d5e7f3;
+	background: #d5e7f3;
+}
+
+
+#contact {
+	background:#FFF;
+}
+
+#logo {
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+}
+
+.honeycombs {
+	position: relative;
+	margin-top:-60px;
+	width: 850px;
+	text-align: center;
+}
+
+.honeycombs .inner_span{
+	display: block;
+	height: 100%;
+	width: 100%;
+	background-color: #f7cd07;
+	font-family: sans-serif;
+	color: #000;
+}
+.honeycombs .inner-text{
+	padding-top: 30%;
+}
+
+.honeycombs .honeycombs-inner-wrapper{
+	display: inline-block;
+	width: 350px;
+	position: relative;
+	height: 600px;
+}
+
+.honeycombs .comb {
+  overflow:hidden;
+    cursor: url('http://24.media.tumblr.com/tumblr_mdig6jktic1riysloo1_100.png'), progress !important;
+	position: absolute;
+	display: inline-block;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.honeycombs .comb:hover {
+    cursor: url('http://24.media.tumblr.com/tumblr_mdig6jktic1riysloo1_100.png'), progress !important;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.honeycombs .hex_l, .honeycombs .hex_r {
+	overflow: hidden;
+	position: absolute;
+	/* -webkit-backface-visibility: hidden; */
+}
+
+.honeycombs .hex_l {
+	visibility: hidden;
+	-moz-transform: rotate(60deg);
+	-ms-transform: rotate(60deg);
+	-o-transform: rotate(60deg);
+	-webkit-transform: rotate(60deg);
+	transform: rotate(60deg);
+}
+
+.honeycombs .hex_r {
+	visibility: hidden;
+	-moz-transform: rotate(-120deg);
+	-ms-transform: rotate(-120deg);
+	-o-transform: rotate(-120deg);
+	-webkit-transform: rotate(-120deg);
+	transform: rotate(-120deg);
+}
+
+.honeycombs .hex_inner {
+	display: block;
+	visibility: visible;
+	-moz-transform: rotate(60deg);
+	-ms-transform: rotate(60deg);
+	-o-transform: rotate(60deg);
+	-webkit-transform: rotate(60deg);
+	transform: rotate(60deg);
+	background-position: center;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	cursor: url('http://24.media.tumblr.com/tumblr_mdig6jktic1riysloo1_100.png'), progress;
+}
+
+
+
+.hexagon {
+  display:none;
+    z-index:9;
+    position:fixed;
+    top:295px;
+    left:-245px;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+       -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+         -o-transform: rotate(120deg);
+            transform: rotate(120deg);
+    cursor: url('http://24.media.tumblr.com/tumblr_mdig6jktic1riysloo1_100.png'), progress;
+    }
+.hexagon-in1 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(120deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    }
+.hexagon-in2 {
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(120deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    }
+.hexagon1 .hexagon-in2 {
+    background:#ddd;
+    color:#fff;
+    text-transform:lowercase;
+    font-size:35px;
+    letter-spacing:0px;
+    text-align:center !important;
+    padding:0px;
+    box-shadow:0px 0px 0px;
+    border-bottom:1px solid transparent;
+}
+
+.hexagon1 #tit {
+    letter-spacing:0px;
+    padding-top:55px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.hexagon1 #tit a {
+    display:inline-block;
+    border-radius:100%;
+    background:#ddd;
+    height:9px;
+    width:9px;
+    border:1px solid #fff;
+}
+.hexagon1 #tit a:hover {
+    border-color:#ddd;
+    background:#fff;
+}
+.hexagon1 {
+    -webkit-transform: rotate(120deg);
+    width: 100%;
+    height: 225px;
+    position:relative;
+    margin-left:-95px;
+    margin-top:-40px;
+    margin-bottom:150px;
+    }
+#inside {
+	font-size:22px;position:absolute;background:url('https://31.media.tumblr.com/afc6f38d0ddf22ab1328ddfa9f35fe21/tumblr_inline_nkuubsWDBg1sr8w60.png');background-size:201px;text-align:center;width:200px;height:200px;background-repeat:no-repeat;color:#fff;z-index:99999999999;margin-top:0px;
+	opacity:0;
+-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+	}
+.comb:hover #inside {
+	opacity:1;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+	}
+	
+	#name {
+	margin:53px auto 0px;text-align:center;width:150px;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+	}
+	.comb:hover #name {
+	  font-size:22px;
+	  margin-top:40px;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    transition-delay: 0.4s;
+    -webkit-transition-delay: 0.4s;
+	}
+#url {
+	text-transform:uppercase;font-size:9px;margin-top:35px;letter-spacing:3px;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+	}
+	.comb:hover #url {
+	margin-top:5px;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+	transition-delay: 0.4s;
+    -webkit-transition-delay: 0.4s;
+	}
+	
+	#url:before {
+content:'';
+	position:absolute;
+	display:block;
+	height:1px;width:50px;
+	background:#fff;
+	margin-top:-21px;
+	margin-left:50px;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+	}
+	.comb:hover #url:before {
+	margin-top:22px;
+	transition-delay: 0.4s;
+    -webkit-transition-delay: 0.4s;
+	}
+	#desc {
+	  line-height:17px;
+	  opacity:0;
+	width:100px;
+	margin:-40px auto 0;
+	font-size:12px;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+	}
+	.comb:hover #desc {
+	margin:25px auto 0;
+	opacity:1;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+	transition-delay: 0.4s;
+    -webkit-transition-delay: 0.4s;
+	}
+	
+	a.comb img {
+	width:200px;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+	}
+	a.comb:hover img {
+	width:210px !important;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+	}
+	
+#inside a {
+  display:block;
+	margin:7px auto 0 auto;
+  text-transform:uppercase;
+	font-size:10px;
+	letter-spacing:1px;
+	color:#fff;
+	padding-bottom:0px;
+	}
+	
+
